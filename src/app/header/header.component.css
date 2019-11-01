@@ -1,0 +1,43 @@
+.help {
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	
+}
+
+.help img {
+	width: 100%;
+	height: auto;
+}
+
+.logo {
+	width: 150px;
+	height: 40px;
+	display:block;
+    margin:0px auto;
+	overflow: hidden;
+	
+}
+
+.logo img {
+	width: 100%;
+	height: auto;
+}
+
+.gettone {
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	
+}
+
+.gettone img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+

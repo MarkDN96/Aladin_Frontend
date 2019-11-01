@@ -1,0 +1,60 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+}
+/*
+mat-toolbar ul {
+list-style: none;
+}
+mat-toolbar ul li {
+float: left;
+width: 150px;
+text-align: center;
+}
+mat-toolbar ul li a {
+display: block;
+padding: 10px 0;
+text-decoration: none;
+width: 150px;
+}
+*/
+
+
+
+
+.home {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.notifications {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.gettone {
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+}
+
+.gettone img {
+	width: 100%;
+	height: auto;
+}
+
+.search {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.account {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
