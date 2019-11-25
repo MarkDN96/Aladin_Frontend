@@ -1,28 +1,11 @@
-.footer {
+/*.footer {
   position: fixed;
   bottom: 0;
   width: 100%;
   overflow: hidden;
+  text-align: center;
+  display:inline-block;
 }
-/*
-mat-toolbar ul {
-list-style: none;
-}
-mat-toolbar ul li {
-float: left;
-width: 150px;
-text-align: center;
-}
-mat-toolbar ul li a {
-display: block;
-padding: 10px 0;
-text-decoration: none;
-width: 150px;
-}
-*/
-
-
-
 
 .home {
 	width: auto;
@@ -40,6 +23,157 @@ width: 150px;
 	width: 50px;
 	height: 50px;
 	overflow: hidden;
+}
+
+.gettone img {
+	width: 100%;
+	height: auto;
+}
+
+.search {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.account {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}*/
+
+/*#bar_container {
+background: #FAA53A;
+margin: 0 auto;
+width: 900px;
+height: 35px;
+overflow: hidden;
+}*/
+/*mat-toolbar ul {
+list-style: none;
+height: auto;
+margin: 0 auto;
+}
+mat-toolbar ul li {
+float: left;
+width: auto;
+text-align: center;
+}*/
+/*mat-toolbar ul li a {
+display: block;
+padding: 50px 0;
+text-decoration: none;
+width: auto;
+}
+mat-toolbar ul li a {
+display:block;
+line-height: 50px;
+height: 40px;
+width: 70px;
+text-align: center;
+text-decoration: none;
+}*/
+
+
+
+
+
+
+
+/*
+.gettone {
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	
+}
+
+.gettone img {
+	width: 100%;
+	height: auto;
+}
+
+.home {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.notifications {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.search {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.account {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}*/
+
+
+
+
+
+
+
+
+/*
+mat-toolbar ul {
+list-style: none;
+margin:0 auto;
+padding:0;
+text-align:center;
+height: auto;
+}
+
+mat-toolbar li {display:inline;}
+
+mat-toolbar li a {
+display:inline-block;
+padding:100px;
+height: auto;
+line-height: auto;
+text-decoration: none;
+}*/
+
+.footer mat-toolbar {
+	position: fixed;
+  	bottom: 0;
+  	width: 100%;
+  	overflow: hidden;
+  	background: #f8f8fc;
+}
+
+.footer mat-toolbar div {
+	margin: 0 auto;
+	display: inline-block;
+	text-align: center;
+}
+
+.home {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.notifications {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.gettone {
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	
 }
 
 .gettone img {
