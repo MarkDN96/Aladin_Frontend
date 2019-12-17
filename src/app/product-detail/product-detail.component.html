@@ -1,107 +1,103 @@
-<div class="album py-5 bg-light">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="assets/macbook.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">                   
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="assets/macbook.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">              
-                  </div>
-                </div>
-              </div>
-            </div><div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="assets/macbook.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">                   
-                  </div>
-                </div>
-              </div>
-            </div><div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="assets/macbook.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">                    
-                  </div>
-                </div>
-              </div>
-            </div><div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="assets/macbook.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">                    
-                  </div>
-                </div>
-              </div>
-            </div><div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="assets/macbook.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">                   
-                  </div>
-                </div>
-              </div>
-            </div><div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="assets/macbook.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">               
-                  </div>
-                </div>
-              </div>
-            </div><div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="assets/macbook.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">                   
-                  </div>
-                </div>
-              </div>
-            </div><div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="assets/macbook.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">              
-                  </div>
-                </div>
-              </div>
-            </div><div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="assets/macbook.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">                   
-                  </div>
-                </div>
-              </div>
-            </div><div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="assets/macbook.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">                   
-                  </div>
-                </div>
-              </div>
-            </div>
-    		</div>
+<div class="container">
+	<div class="row">
+		<div id="list" *ngFor="let images of img">
+			<div id="uno" style="float:left; margin-bottom:20%;">
+				<img [src]="images.path"  style="height: 300px; width: 300px; display: block;">		
+			</div>
+			<div id="due" style="float:left; display: block; height:300px; width:150px;" >
+				<input type="button" value="Partecipa" onclick="this.style.visibility='hidden';" style=" margin-bottom:70%; margin-left:20%">
+				<input type="button" value="Partecipa" onclick="this.style.visibility='hidden';" style=" margin-bottom:60%; margin-left:20%">
+				<input type="button" value="Partecipa" onclick="this.style.visibility='hidden';" style=" margin-left:20%">
+			</div>
+		</div>
 	</div>
 </div>
+
+	
+
+
+
+
+
+<!-- 		<div class="col-md-4">
+			<img id="img2" (click)="hideImg('img2')" src="assets/macbook.png" style="height: 300px; width: 100%; display: block;">		
+		</div>
+		<div class="col-md-4">
+			<img id="img3" (click)="hideImg('img3')" src="assets/macbook.png" style="height: 300px; width: 100%; display: block;">		
+		</div>
+		<div class="col-md-4">
+			<img id="img4" (click)="hideImg('img4')" src="assets/macbook.png" style="height: 300px; width: 100%; display: block;">		
+		</div>
+		<div class="col-md-4">
+			<img id="img5" (click)="hideImg('img5')" src="assets/macbook.png" style="height: 300px; width: 100%; display: block;">		
+		</div>
+		<div class="col-md-4">
+			<img id="img6" (click)="hideImg('img6')" src="assets/macbook.png" style="height: 300px; width: 100%; display: block;">		
+		</div>
+		<div class="col-md-4">
+			<img id="img7" (click)="hideImg('img7')" src="assets/macbook.png" style="height: 300px; width: 100%; display: block;">		
+		</div>
+		<div class="col-md-4">
+			<img id="img8" (click)="hideImg('img8')" src="assets/macbook.png" style="height: 300px; width: 100%; display: block;">		
+		</div>
+		<div class="col-md-4">
+			<img id="img9" (click)="hideImg('img9')" src="assets/macbook.png" style="height: 300px; width: 100%; display: block;">		
+		</div>
+	</div>
+</div>
+-->		
+		
+	
+	
+		
+	
+	
+             
+<!-- <div  class="col-md-4" *ngFor="let images of img">
+            	      		
+      			<img id="nomediv" [src]="images.path" (click)="showImg()"   data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                </div> -->             
+             
+             
+         
+       <!--       <img class="card-img-bottom" [src]="images.path" id="nomediv" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+       
+       
+       
+       
+       <div class="col-md-4">
+              
+                <img class="card-img-top" src="assets/macbook.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                
+                </div>
+              
+           <div class="col-md-4">
+              
+                <img class="card-img-top" src="assets/macbook.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                
+                </div><div class="col-md-4">
+              
+                <img class="card-img-top"  src="assets/macbook.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                
+                </div><div class="col-md-4">
+              
+                <img class="card-img-top"  src="assets/macbook.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                
+                </div><div class="col-md-4">
+              
+                <img class="card-img-top"  src="assets/macbook.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                
+                </div><div class="col-md-4">
+              
+                <img class="card-img-top"  src="assets/macbook.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                
+                </div><div class="col-md-4">
+              
+                <img class="card-img-top"  src="assets/macbook.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                
+                </div><div class="col-md-4">
+              
+                <img class="card-img-top"  src="assets/macbook.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                
+                </div>
+	</div></div>-->

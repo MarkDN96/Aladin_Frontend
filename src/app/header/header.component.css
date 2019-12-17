@@ -1,4 +1,6 @@
-.header {
+.header mat-toolbar {
+	position: fixed;
+	top: 0;
 	background: #f8f8fc;
 }
 

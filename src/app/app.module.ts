@@ -14,6 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { ProductBarComponent } from './product-bar/product-bar.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
     FooterComponent,
     ContentComponent,
     ProductDetailComponent,
+    ProductBarComponent,
   ],
   imports: [
     BrowserModule,

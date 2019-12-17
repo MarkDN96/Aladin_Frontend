@@ -146,8 +146,6 @@ text-decoration: none;
 .footer mat-toolbar {
 	position: fixed;
   	bottom: 0;
-  	width: 100%;
-  	overflow: hidden;
   	background: #f8f8fc;
 }
 
@@ -158,12 +156,6 @@ text-decoration: none;
 }
 
 .home {
-	width: auto;
-	height: auto;
-	overflow: hidden;
-}
-
-.notifications {
 	width: auto;
 	height: auto;
 	overflow: hidden;
@@ -181,13 +173,7 @@ text-decoration: none;
 	height: auto;
 }
 
-.search {
-	width: auto;
-	height: auto;
-	overflow: hidden;
-}
-
-.account {
+.emoji_events {
 	width: auto;
 	height: auto;
 	overflow: hidden;

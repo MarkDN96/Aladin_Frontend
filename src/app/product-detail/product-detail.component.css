@@ -1,2 +1,11 @@
+.container {
+	margin-top: 50px; /*spazio superiore*/
+}
 
+#list {
+	margin:auto;
+}
 
+#due {
+	border-right: 1px solid grey;
+}
